@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>this is text of home</h1>
+<form action="{% url 'index' %}" method="get">
+	<textarea cols="40" rows="10" name="text"></textarea>
+	<input type="submit" name="" value="submit">
+</form>
+<a href="{% url 'index' %}">please click me</a>
+</body>
+</html>
